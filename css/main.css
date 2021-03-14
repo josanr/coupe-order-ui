@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    overflow-y: scroll;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#lg {
+    display: block;
+    position: absolute;
+    width: 118px;
+    left: 35px;
+    top: 17px;
+}
+
+#header {
+    position: relative;
+}
+
+/*#loginmenu{*/
+/*position: relative;*/
+/*left: 0px;*/
+/*top: 60px;*/
+/*}*/
+
+#content {
+    position: relative;
+}
+
+.thumbButton {
+    float: left;
+    width: 114px;
+    height: 114px;
+    margin: 5px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    background-color: white;
+    padding: 0;
+}
+
+.thumbButton:hover {
+    width: 124px;
+    height: 124px;
+    margin: 0;
+}
+
+body .modal.large {
+    width: 80%; /* respsonsive width */
+    margin-left: -40%; /* width/2) */
+}
+
+#manuf_menu ul li:hover, #group_menu ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.grid-view table tr {
+    cursor: pointer;
+}
+
+.activeWork {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.simple-table {
+    background-color: white;
+}
+
+.simple-table td, .simple-table th {
+    border: solid 1px black;
+    min-width: 30px;
+}
+
+.simple-table td {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.simpleinput {
+    border-radius: 0px !important;
+    outline: none;
+    border: none !important;
+    box-shadow: none !important;
+    margin: 0px 0px 0px 5px !important;
+    padding: 0px !important;
+
+}
+
+.simpleselect {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    appearance: none !important;
+    cursor: pointer;
+    width: 120px;
+}
+
+.center-content, .pos {
+    text-align: center;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red !important;
+}
+
+#collect-data div.span4 {
+    margin-left: 15px !important;
+}
+
+#grey {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(223, 223, 223);
+    opacity: 0.5;
+    display: none;
+    min-height: 1px;
+    z-index: 1000;
+}
+
+#loading {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    top: 0px;
+    left: 0px;
+}
+
+div.page:nth-child(2n+1) {
+    page-break-after: always;
+    page-break-inside: avoid;
+
+}
+
+.actStatusDone {
+    background-color: grey;
+    color: white;
+}
+
+.itemList > li.active > a {
+    background-color: rgb(0, 136, 204) !important;
+    color: white !important;
+
+}
+
+.itemList {
+    background-color: white !important;
+
+}
+
+.itemList > li > a {
+
+    /*line-height: 15px !important;*/
+    padding: 2px !important;
+    font-size: 12px !important;
+}
